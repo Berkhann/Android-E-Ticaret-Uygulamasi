@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ExpandableListView
+                android:id="@+id/extlistview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_x="0dp"
+                android:layout_y="25dp"></ExpandableListView>
+        </AbsoluteLayout>
+
+    </android.support.design.widget.NavigationView>
+</LinearLayout>

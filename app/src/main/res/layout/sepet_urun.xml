@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/txt_adet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="207dp"
+            android:layout_y="47dp"
+            android:gravity="right"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_toplamfiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="276dp"
+            android:layout_y="48dp"
+            android:text="TextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="191dp"
+            android:layout_y="25dp"
+            android:text="Birim Fİyat:" />
+
+        <TextView
+            android:id="@+id/txt_sepet_fiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="274dp"
+            android:layout_y="25dp"
+            android:gravity="left|center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/txt_sepet_ad"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_x="61dp"
+            android:layout_y="4dp"
+            android:gravity="left|center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="4dp"
+            android:gravity="left|center"
+            android:text="Ürün Adı:"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_cikis"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_x="329dp"
+            android:layout_y="4dp"
+            app:srcCompat="@android:drawable/ic_delete"
+            tools:layout_editor_absoluteX="293dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

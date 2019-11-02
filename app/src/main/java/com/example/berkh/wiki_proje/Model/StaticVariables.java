@@ -1,0 +1,6 @@
+package com.example.berkh.wiki_proje.Model;
+
+public class StaticVariables {
+    public final static String JSON_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc0lEIjoiIiwiRXN0SUQiOiIxNiIsIkJySUQiOiIxNSIsIkxuZ0lEIjoiMiIsIm5iZiI6MTUyOTkxMTQ1MywiZXhwIjoxODI5OTExNDUzLCJpYXQiOjE1Mjk5MTE0NTN9.yaEzQaqTwXI8Dk7vXpwDQtCrog1o62VzhfHZZYfmu28";
+
+}

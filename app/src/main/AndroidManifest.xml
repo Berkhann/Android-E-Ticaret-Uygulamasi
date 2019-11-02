@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.berkh.wiki_proje">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Kategoriler.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Kategoriler.bilgi_kategori" />
+        <activity android:name=".Product_list.urun" />
+        <activity android:name=".ürün_detay.urun_icerik_sayfa" />
+        <activity android:name=".hesap.Login_page" />
+        <activity android:name=".hesap.hesabim" />
+        <activity android:name=".hesap_bilgileri" />
+        <activity
+            android:name=".sepet"
+            android:label="@string/title_activity_sepet"></activity>
+    </application>
+
+</manifest>

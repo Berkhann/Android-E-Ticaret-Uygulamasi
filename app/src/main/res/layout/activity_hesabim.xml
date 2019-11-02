@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    tools:context=".hesap.hesabim">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color_change"
+            app:srcCompat="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/btn_cikis"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="323dp"
+            android:layout_y="0dp"
+            android:background="@color/cardview_light_background"
+            app:srcCompat="@drawable/exit" />
+
+    </AbsoluteLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp">
+
+            <TextView
+                android:id="@+id/txt_ad_soyad"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_x="166dp"
+                android:layout_y="12dp"
+                android:text="TextView"
+                android:textColor="#f5743d"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_x="89dp"
+                android:layout_y="12dp"
+                android:text="Hoşgeldin,"
+                android:textColor="#f5743d"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </AbsoluteLayout>
+
+        <TextView
+            android:id="@+id/txt_siparisler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Siparişlerim"
+            android:textColor="#f5743d"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_aldıklarım"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Aldıklarım"
+            android:textColor="#f5743d"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_takip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Takip Ettiklerim"
+            android:textColor="#f5743d"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_mesaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Mesajlarım"
+            android:textColor="#f5743d"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_bilgiler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Bilgilerim"
+            android:textColor="#f5743d"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_ayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="Ayarlar"
+            android:textColor="#f5743d"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_x="0dp"
+        android:layout_y="591dp"
+        android:background="?android:attr/windowBackground"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_genel">
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+</RelativeLayout>

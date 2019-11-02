@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".hesap.Login_page">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:text="Şifre:"
+        android:textColor="#F8B195"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="211dp"
+        android:gravity="center"
+        android:text="Kullanıcı Adı:"
+        android:textColor="#F8B195"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <Button
+        android:id="@+id/btn_giris"
+        android:layout_width="95dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="55dp"
+        android:text="Giriş"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/btn_kayit"
+        android:layout_width="95dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="74dp"
+        android:text="Kayit Ol"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <EditText
+        android:id="@+id/txt_kullanici_adi"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="205dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_sifre"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignStart="@+id/txt_kullanici_adi"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+</RelativeLayout>
